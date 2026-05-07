@@ -6,13 +6,14 @@
     <title>Document</title>
      <link rel="stylesheet" href="public/output.css">
 </head>
-<body class="bg-[url('/public/images/og.png')] bg-no-repeat bg-fixed bg-cover bg-center sm:bg-contain md:bg-cover lg:bg-cover">
+<!-- <body class="bg-[url('/public/images/og.png')] bg-no-repeat bg-fixed bg-cover bg-center sm:bg-contain md:bg-cover lg:bg-cover"> -->
+    <body class="bg-[#0d0d0d]">
     
 
     <!-- HEADER -->
-     <header class="bg-[#1a1a1a]/90 text-white mx-4 text-sm border border-[#8b7500] border-b-8 p-2 lg:text-2xl mt-6
+     <header class="bg-[#1a1a1a]/90 text-white mx-1.5 text-sm border border-[#8b7500] border-b-8 p-2 lg:text-2xl mt-6
      md:mx-20 lg:mx-56">
-        <nav class="flex justify-center gap-8">
+        <nav class="flex justify-center gap-3 md:gap-5 lg:gap-8">
             <a href="index.html" class="hover:text-[#8b7500] hover:text-3xl hover:underline duration-500">HOME</a>
             <a href="services.html" class="hover:text-[#8b7500] hover:text-3xl hover:underline duration-500">SERVICES</a>
             <a href="bookings.html" class="hover:text-[#8b7500] hover:text-3xl hover:underline duration-500">BOOKINGS</a>
@@ -26,7 +27,7 @@
       <main>
 
         <section class="service text-center">
-              <h1 class="text-[#8b7500] text-sm md:text-2xl lg:text-2xl">SERVICE CATALOGUE</h1>
+              <h1 class="text-[#b8922a] text-sm md:text-2xl lg:text-2xl">SERVICE CATALOGUE</h1>
         <h2 class="text-[18px] md:text-3xl lg:text-3xl text-white">G.O World of Media & Prints</h2>
         <p class="text-[#8b7500]">Efficient · Accurate · Professional · Since 2019</p>
        <div class="flex justify-center">
@@ -35,16 +36,21 @@
         </section>
 
         <!-- APPARELS -->
-         <section>
-            <div class="bg-amber-950 rounded-2xl">
-                <img src="public/images/jersey.jpeg" alt="">
 
-                <div class="flex gap-1.5">
-                <div class="bg-[#8b7500] w-1.5 h-[6vh] md:w-2.5 md:h-[7vh] lg:w-3 lg:h-[8vh]"></div>
-                <h3 class="text-[#8b7500] text-sm md:text-2xl lg:text-2xl">Custom T-Shirts</h3>
-                </div>
+        <div class="flex gap-1.5 ml-1.5 text-[#8b7500]">
+             <div class="bg-[#8b7500] w-0.5 md:w-1.5 lg:w-2 h-[3vh]"></div>
+             <h2>APPARELS & TEXTILE PRINTING</h2>
+        </div>
+         <section class="px-3 flex gap-3.5 p-2 overflow-x-scroll lg:justify-center lg:overflow-hidden">
 
-                <li class="text-gray-500 text-sm md:text-[19px] lg:text-2xl">
+            <!-- FIRST CARD -->
+            <div class="bg-[#1a1610] w-full border border-[#8b7500] rounded-2xl pb-2.5 shrink-0 lg:w-[37vw] lg:shrink">
+                <img src="public/images/jersey.jpeg" alt="" class="w-full h-[10vh] rounded-t-2xl">
+
+                <div class="px-2.5">
+                      <h3 class="text-[#e8c060] font-extralight ml-3.5 text-[18px] md:text-2xl lg:text-2xl">Custom T-Shirts</h3>
+
+                <li class="text-[#aaaaaa] text-[18px] mt-2.5 md:text-[19px] lg:text-2xl">
                     <ul>DTF (Direct to Film) printing</ul>
                     <ul>Screen printing</ul>
                     <ul>Sublimation printing</ul>
@@ -52,7 +58,132 @@
                     <ul>Single & bulk orders</ul>
                 </li>
 
-                <p class="bg-amber-900 text-[#8b7500] border-[#8b7500] rounded-2xl p-1 text-sm md:text-[22px] lg:text-[23px]">DTF · Screen · Sublimation</p>
+                <p class="bg-[#2a1f08] text-[#8b7500] border border-[#8b7500] w-[50vw] rounded-[10px] p-1 text-sm md:text-[22px] lg:w-[15vw] lg:text-[23px]">DTF · Screen · Sublimation</p>
+                </div>
+
+              
+            </div>
+
+
+            <!-- SECOND CARD -->
+             <div class="bg-[#1a1610] w-full border border-[#8b7500] rounded-2xl pb-2.5 shrink-0 lg:w-[37vw] lg:shrink">
+                <img src="public/images/jersey.jpeg" alt="" class="w-full h-[10vh] rounded-t-2xl">
+
+                <div class="px-2.5">
+                      <h3 class="text-[#e8c060] ml-3.5 text-[18px] font-extralight md:text-2xl lg:text-2xl">Custom T-Shirts</h3>
+
+                <li class="text-[#aaaaaa] text-[18px] mt-2.5 md:text-[19px] lg:text-2xl">
+                    <ul>DTF (Direct to Film) printing</ul>
+                    <ul>Screen printing</ul>
+                    <ul>Sublimation printing</ul>
+                    <ul>Vintage washed tees</ul>
+                    <ul>Single & bulk orders</ul>
+                </li>
+
+                <p class="bg-[#2a1f08] text-[#8b7500] border border-[#8b7500] w-[50vw] rounded-[10px] p-1 text-sm md:text-[22px] lg:w-[15vw] lg:text-[23px]">DTF · Screen · Sublimation</p>
+                </div>
+
+              
+            </div>
+
+
+            <!-- THIRD CARD -->
+             <div class="bg-[#1a1610] w-full border border-[#8b7500] rounded-2xl pb-2.5 shrink-0 lg:w-[37vw] lg:shrink">
+                <img src="public/images/jersey.jpeg" alt="" class="w-full h-[10vh] rounded-t-2xl">
+
+                <div class="px-2.5">
+                      <h3 class="text-[#e8c060] ml-3.5 text-[18px] font-extralight md:text-2xl lg:text-2xl">Custom T-Shirts</h3>
+
+                <li class="text-[#aaaaaa] text-[18px] mt-2.5 md:text-[19px] lg:text-2xl">
+                    <ul>DTF (Direct to Film) printing</ul>
+                    <ul>Screen printing</ul>
+                    <ul>Sublimation printing</ul>
+                    <ul>Vintage washed tees</ul>
+                    <ul>Single & bulk orders</ul>
+                </li>
+
+                <p class="bg-[#2a1f08] text-[#8b7500] border border-[#8b7500] w-[50vw] rounded-[10px] p-1 text-sm md:text-[22px] lg:w-[15vw] lg:text-[23px]">DTF · Screen · Sublimation</p>
+                </div>
+
+              
+            </div>
+         </section>
+
+
+
+         <!-- CORPORATE BRANDING AND IDENTITY -->
+
+           <div class="flex gap-1.5 ml-3.5 text-[#8b7500] mt-4 md:mt-6 lg:mt-12">
+             <div class="bg-[#8b7500] w-0.5 md:w-1.5 lg:w-2 h-[3vh]"></div>
+             <h2>APPARELS & TEXTILE PRINTING</h2>
+        </div>
+
+
+         <section class="px-3 flex gap-3.5 p-2 mt-4 overflow-x-scroll lg:justify-center lg:overflow-hidden">
+
+            <!-- FIRST CARD -->
+            <div class="bg-[#1a1610] w-full border border-[#8b7500] rounded-2xl pb-2.5 shrink-0 lg:w-[37vw] lg:shrink">
+                <img src="public/images/jersey.jpeg" alt="" class="w-full h-[10vh] rounded-t-2xl">
+
+                <div class="px-2.5">
+                      <h3 class="text-[#e8c060] ml-3.5 text-[18px] font-extralight md:text-2xl lg:text-2xl">Custom T-Shirts</h3>
+
+                <li class="text-[#aaaaaa] text-[18px] mt-2.5 md:text-[19px] lg:text-2xl">
+                    <ul>DTF (Direct to Film) printing</ul>
+                    <ul>Screen printing</ul>
+                    <ul>Sublimation printing</ul>
+                    <ul>Vintage washed tees</ul>
+                    <ul>Single & bulk orders</ul>
+                </li>
+
+                <p class="bg-[#2a1f08] text-[#8b7500] border border-[#8b7500] w-[50vw] rounded-[10px] p-1 text-sm md:text-[22px] lg:w-[15vw] lg:text-[23px]">DTF · Screen · Sublimation</p>
+                </div>
+
+              
+            </div>
+
+
+            <!-- SECOND CARD -->
+             <div class="bg-[#1a1610] w-full border border-[#8b7500] rounded-2xl pb-2.5 shrink-0 lg:w-[37vw] lg:shrink">
+                <img src="public/images/jersey.jpeg" alt="" class="w-full h-[10vh] rounded-t-2xl">
+
+                <div class="px-2.5">
+                      <h3 class="text-[#e8c060] ml-3.5 text-[18px] font-extralight md:text-2xl lg:text-2xl">Custom T-Shirts</h3>
+
+                <li class="text-[#aaaaaa] text-[18px] mt-2.5 md:text-[19px] lg:text-2xl">
+                    <ul>DTF (Direct to Film) printing</ul>
+                    <ul>Screen printing</ul>
+                    <ul>Sublimation printing</ul>
+                    <ul>Vintage washed tees</ul>
+                    <ul>Single & bulk orders</ul>
+                </li>
+
+                <p class="bg-[#2a1f08] text-[#8b7500] border border-[#8b7500] w-[50vw] rounded-[10px] p-1 text-sm md:text-[22px] lg:w-[15vw] lg:text-[23px]">DTF · Screen · Sublimation</p>
+                </div>
+
+              
+            </div>
+
+
+            <!-- THIRD CARD -->
+             <div class="bg-[#1a1610] w-full border border-[#8b7500] rounded-2xl pb-2.5 shrink-0 lg:w-[37vw] lg:shrink">
+                <img src="public/images/jersey.jpeg" alt="" class="w-full h-[10vh] rounded-t-2xl">
+
+                <div class="px-2.5">
+                      <h3 class="text-[#e8c060] ml-3.5 text-[18px] font-extralight md:text-2xl lg:text-2xl">Custom T-Shirts</h3>
+
+                <li class="text-[#aaaaaa] text-[18px] mt-2.5 md:text-[19px] lg:text-2xl">
+                    <ul>DTF (Direct to Film) printing</ul>
+                    <ul>Screen printing</ul>
+                    <ul>Sublimation printing</ul>
+                    <ul>Vintage washed tees</ul>
+                    <ul>Single & bulk orders</ul>
+                </li>
+
+                <p class="bg-[#2a1f08] text-[#8b7500] border border-[#8b7500] w-[50vw] rounded-[10px] p-1 text-sm md:text-[22px] lg:w-[15vw] lg:text-[23px]">DTF · Screen · Sublimation</p>
+                </div>
+
+              
             </div>
          </section>
       
