@@ -10,9 +10,9 @@
 
 
     <!-- HEADER -->
-     <header class="bg-[#1a1a1a]/90 text-white mx-10 border border-[#8b7500] border-b-8 p-2 lg:text-2xl mt-6
+  <header class="bg-[#1a1a1a]/90 text-white mx-2 text-sm border border-[#8b7500] border-b-8 p-2 lg:text-2xl mt-6
      md:mx-20 lg:mx-56">
-        <nav class="flex justify-center gap-8">
+        <nav class="flex justify-center gap-3 md:gap-5 lg:gap-8">
             <a href="index.html" class="hover:text-[#8b7500] hover:text-3xl hover:underline duration-500">HOME</a>
             <a href="services.html" class="hover:text-[#8b7500] hover:text-3xl hover:underline duration-500">SERVICES</a>
             <a href="bookings.html" class="hover:text-[#8b7500] hover:text-3xl hover:underline duration-500">BOOKINGS</a>
@@ -70,7 +70,7 @@
 
 
 
-             <div class="text-white w-[80%] mx-auto mt-2 h-[15vh] border border-[#3a2e12] rounded-2xl text-center md:w-full">
+             <div class="text-white w-[80%] mx-auto mt-2 h-[15vh] border border-[#3a2e12] rounded-2xl text-center md:w-full md:hidden lg:hidden">
                 <p>&#127925;</p>
                 <p class="text-[#8b7500]">TIKTOK</p>
                 <p>@generalgeeo</p>
@@ -79,20 +79,111 @@
 
             <!-- the medium and large view -->
 
-            <div>
-                
+
+            <!-- the first flexed items -->
+            <div class="hidden md:flex md:justify-center md:gap-2 lg:flex lg:justify-center lg:gap-2">
+               
+                  <div class="text-white lg:w-[30%] md:w-[30%] h-[15vh] px-1.5 border border-[#3a2e12] rounded-2xl text-center">
+                <p>&#128205;</p>
+                <p class="text-[#8b7500]">LOCATION</p>
+                <p>Shop 19, El Tof Plaza, Jos</p>
             </div>
+
+             <div class="text-white lg:w-[30%] md:w-[30%] h-[15vh] border border-[#3a2e12] rounded-2xl text-center">
+                <p>&#128222;</p>
+                <p class="text-[#8b7500]">WHATSAPP</p>
+                <p>08165814577</p>
+            </div>
+
+             <div class="text-white lg:w-[30%] md:w-[30%] h-[15vh] border border-[#3a2e12] rounded-2xl text-center">
+                <p>&#128248;</p>
+                <p class="text-[#8b7500]">INSTAGRAM</p>
+                <p>@g.o_collections</p>
+            </div>
+
+            </div>
+
+            <!-- the 2nd flexed items -->
+             <div class="hidden mt-4 md:flex md:justify-center md:gap-2 lg:flex lg:justify-center lg:gap-2">
+
+                   <div class="text-white w-[30%] h-[15vh] border border-[#3a2e12] rounded-2xl text-center">
+                <p class="bg-blue-600 w-[20%] mx-auto">F</p>
+                <p class="text-[#8b7500]">FACEBOOK</p>
+                <p>Eze Kingsley (G.O)</p>
+            </div>
+
+             <div class="text-white w-[30%] h-[15vh] border border-[#3a2e12] rounded-2xl text-center">
+                <p>&#127925;</p>
+                <p class="text-[#8b7500]">TIKTOK</p>
+                <p>@generalgeeo</p>
+            </div>
+
+             </div>
             
          </section>
 
          <!-- 4-steps -->
-          <h2 class="text-white hidden lg:block">4-STEP WEB BOOKING WORKFLOW</h2>
+          <h2 class="text-white text-center font-bold mt-5 md:mt-14 lg:mt-20">4-STEP WEB BOOKING WORKFLOW</h2>
 
-          <!-- flexed shii -->
-           <div>
-            <h4>Portal Submission</h4>
-           </div>
+          <!-- booking workflow for mobile and medium view -->
+           <section class="text-white mt-3 flex flex-col gap-2 lg:hidden">
+            
+            <!-- portal submission -->
+             <div class="md:flex md:justify-center md:gap-2">
+
+             <div class="flex gap-3 bg-amber-950 rounded-2xl mx-auto pl-3 h-[8vh] w-[90vw] md:w-[45vw]">
+                <h2 class="text-black bg-[#8b7500] rounded-full w-[5vw] h-[5vh] my-auto pl-3 pt-2 text-2xl">1</h2>
+                <h3 class="text-[#e6e6e6] my-auto text-[20px] md:text-2xl">Portal Submission</h3>
+             </div>
+
+             <!-- proof review -->
+              <div class="flex gap-3 bg-amber-950 rounded-2xl mt-2 mx-auto pl-3 w-[90vw] h-[8vh] md:w-[45vw] md:mt-0">
+                <h2 class="text-black bg-[#8b7500] rounded-full w-[5vw] h-[5vh] my-auto pl-3 pt-2 text-2xl">2</h2>
+                <h3 class="text-[#e6e6e6] my-auto text-[20px] md:text-2xl">Digital Proof Review</h3>
+             </div>
+             </div>
+
+             <!-- secure checkout -->
+              <div class="md:flex md:justify-center md:gap-2">
+
+              <div class="flex gap-3 bg-amber-950 rounded-2xl mx-auto pl-3 w-[90vw] h-[8vh] md:w-[45vw]">
+                <h2 class="text-black bg-[#8b7500] rounded-full w-[5vw] h-[5vh] my-auto pl-3 pt-2 text-2xl">3</h2>
+                <h3 class="text-[#e6e6e6] my-auto text-[20px] md:text-2xl">Secure Checkout</h3>
+             </div>
+
+              <div class="flex gap-3 bg-amber-950 rounded-2xl mt-2 mx-auto pl-3 w-[90vw] h-[8vh] md:w-[45vw] md:mt-0">
+                <h2 class="text-black bg-[#8b7500] rounded-full w-[5vw] h-[5vh] my-auto pl-3 pt-2 text-2xl">4</h2>
+                <h3 class="text-[#e6e6e6] my-auto text-[20px] md:text-2xl">Industrial Production</h3>
+             </div>
+              </div>
+           </section>
+
+
+           <!-- booking workflow for large view -->
+            <div class="hidden md:hidden lg:flex lg:justify-center lg:gap-7 lg:items-center">
+                <h4 class="text-[#e6e6e6]">Portal Submission</h4>
+                <p class="text-[#8b7500] mb-3 text-[2rem]">&rarr;</p>
+
+                 <h4 class="text-[#e6e6e6]">Digital Proof Review</h4>
+                <p class="text-[#8b7500] mb-3 text-[2rem]">&rarr;</p>
+
+                 <h4 class="text-[#e6e6e6]">Secure Checkout</h4>
+                <p class="text-[#8b7500] mb-3 text-[2rem]">&rarr;</p>
+
+                 <h4 class="text-[#e6e6e6]">Industrial Production</h4>
+
+            </div>
+
      </main>
+
+     <footer class="text-center">
+        <p class="text-2xl text-[#8b7500] font-extralight">Efficient . &nbsp;Accurate. &nbsp;Professional. Since 2019</p>
+
+        <div class="flex justify-center mt-5">
+        <div class="bg-[#8b7500] w-[50vw] h-1 text-center rounded-2xl"></div>
+        </div>
+
+     </footer>
     
 </body>
 </html>
