@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About — G.O Media</title>
      <link rel="stylesheet" href="public/output.css">
 </head>
 <body class="bg-black bg-no-repeat bg-fixed bg-cover bg-center sm:bg-contain md:bg-cover lg:bg-cover">
@@ -27,26 +27,49 @@
 
 
            <section class="lg:flex">
-            <img src="public/images/G.O LOGO.jpeg" alt="" class="lg:h-[80vh]">
+            <div class="overflow-hidden lg:w-1/2">
+              <img id="about-hero-img" src="public/images/G.O LOGO.jpeg" alt="" class="lg:h-[80vh] w-full object-cover transition-transform duration-300">
+            </div>
 
              
      
 
-            <div class="bg-black text-white text-[20px] md:text-2xl lg:text-4xl lg:mt-20">
-        <div class="flex gap-3.5 ml-7">
+            <div class="bg-black text-white text-[20px] md:text-2xl lg:text-4xl lg:mt-20 lg:w-1/2">
+        <div class="flex gap-3.5 ml-7" data-reveal="left">
             <div class="bg-[#8b7500] w-0.5 md:w-1.5 lg:w-2 h-[6vh] lg:h-[10vh]"></div>
             <h1 class="text-4xl text-[#8b7500] font-bold lg:text-7xl">OUR STORY</h1>
         </div>
 
-        <p class="px-3.5 mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur quia iste amet quasi est aperiam explicabo similique esse quisquam eum, harum modi officia magnam vel perferendis molestias sed praesentium. Cupiditate.
-        Voluptatum libero qui modi assumenda cumque, officiis, velit quam quod soluta laborum sed nisi repellendus ipsam id accusamus rem illo nihil commodi incidunt. Nesciunt quas non a voluptatibus iure quisquam.
-        Molestiae quasi esse qui hic nobis fugiat non autem? Ratione voluptas deleniti repudiandae atque eveniet? Laborum, illum ducimus temporibus nesciunt dignissimos at accusamus nulla, nostrum similique doloremque saepe dolore asperiores.</p>
+        <p class="px-3.5 mt-5" data-text-reveal>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur quia iste amet quasi est aperiam explicabo similique esse quisquam eum, harum modi officia magnam vel perferendis molestias sed praesentium. Cupiditate.</p>
+        <p class="px-3.5 mt-3" data-text-reveal>Voluptatum libero qui modi assumenda cumque, officiis, velit quam quod soluta laborum sed nisi repellendus ipsam id accusamus rem illo nihil commodi incidunt. Nesciunt quas non a voluptatibus iure quisquam.</p>
+        <p class="px-3.5 mt-3" data-text-reveal>Molestiae quasi esse qui hic nobis fugiat non autem? Ratione voluptas deleniti repudiandae atque eveniet? Laborum, illum ducimus temporibus nesciunt dignissimos at accusamus nulla, nostrum similique doloremque saepe dolore asperiores.</p>
             </div>
 
 
 
         </section>
+
+        <!-- Stats Section -->
+        <section class="mt-16 mb-10 px-4">
+          <div class="text-center mb-8" data-reveal="up">
+            <h2 class="text-[#8b7500] text-3xl md:text-4xl font-bold">By The Numbers</h2>
+            <div class="bg-[#8b7500] w-16 h-0.5 mx-auto rounded-full mt-3"></div>
+          </div>
+          <div id="stats-grid" class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto"></div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="mt-16 mb-20 px-4 max-w-2xl mx-auto">
+          <div class="text-center mb-10" data-reveal="up">
+            <h2 class="text-[#8b7500] text-3xl md:text-4xl font-bold">Our Journey</h2>
+            <div class="bg-[#8b7500] w-16 h-0.5 mx-auto rounded-full mt-3"></div>
+          </div>
+          <div id="timeline-section" class="ml-4"></div>
+        </section>
+
       </main>
     
+    <script src="js/shared.js"></script>
+    <script src="js/about.js"></script>
 </body>
 </html>
