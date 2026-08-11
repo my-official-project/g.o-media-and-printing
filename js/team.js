@@ -12,14 +12,14 @@ const teamMembers = [
     skills: ['Brand Strategy', 'Business Development', 'Creative Direction']
   },
   {
-    name: 'Creative Director',
+    name: 'Daniel Ikye',
     role: 'Head of Design',
     image: 'public/images/705.jpeg',
     bio: 'Leading the design team with innovative concepts and cutting-edge visual solutions. Specializes in brand identity creation and corporate design systems.',
     skills: ['Graphic Design', 'Brand Identity', 'Typography']
   },
   {
-    name: 'Production Manager',
+    name: 'John Bosco',
     role: 'Print Operations Lead',
     image: 'public/images/industrial.jpeg',
     bio: 'Oversees all printing operations from DTF to large-scale offset printing. Ensures quality control and timely delivery on every project.',
