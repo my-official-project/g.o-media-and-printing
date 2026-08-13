@@ -9,28 +9,52 @@ const teamMembers = [
     role: 'CEO & Founder',
     image: 'public/images/G.O LOGO.jpeg',
     bio: 'Visionary leader and founder of G.O World of Media & Prints. With over 5 years of experience in branding and printing, he has built a legacy of excellence, accuracy, and professionalism.',
-    skills: ['Brand Strategy', 'Business Development', 'Creative Direction']
+    // skills: ['Brand Strategy', 'Business Development', 'Creative Direction']
   },
   {
-    name: 'Daniel Ikye',
-    role: 'Head of Design',
-    image: 'public/images/705.jpeg',
-    bio: 'Leading the design team with innovative concepts and cutting-edge visual solutions. Specializes in brand identity creation and corporate design systems.',
-    skills: ['Graphic Design', 'Brand Identity', 'Typography']
+    name: 'Mascot Dapels',
+    role: 'Production Officer',
+    image: 'public/images/G.O LOGO.jpeg',
+    bio: 'Specializes in brand identity creation and corporate design systems.Oversees all printing operations from DTF to large-scale offset printing. Ensures quality control and timely delivery on every project.',
+    // skills: ['Graphic Design', 'Brand Identity', 'Typography']
   },
   {
-    name: 'John Bosco',
-    role: 'Print Operations Lead',
-    image: 'public/images/industrial.jpeg',
-    bio: 'Oversees all printing operations from DTF to large-scale offset printing. Ensures quality control and timely delivery on every project.',
-    skills: ['Print Production', 'Quality Control', 'Logistics']
+    name: 'Favour Ndubuisi',
+    role: 'Chief Graphics Designer',
+    image: 'public/images/G.O LOGO.jpeg',
+    bio: 'Leading the design team with innovative concepts and cutting-edge visual solutions. ',
+    // skills: ['Print Production', 'Quality Control', 'Logistics']
   },
   {
-    name: 'Digital Media Specialist',
-    role: 'Social Media & Content',
-    image: 'public/images/digital media.jpeg',
-    bio: 'Manages the digital presence and social media strategy for G.O World. Creates engaging content that connects brands with their audience.',
-    skills: ['Social Media', 'Content Creation', 'Digital Marketing']
+    name: 'Anabel Akukwe',
+    role: 'Secretary',
+    image: 'public/images/G.O LOGO.jpeg',
+    bio: 'Responsible for managing the CEO\'s daily schedule and correspondence, coordinating meetings and appointments, ensuring smooth day-to-day office operations.',
+    // skills: ['Social Media', 'Content Creation', 'Digital Marketing']
+  },
+  {
+    name: 'Theophilus Odah',
+    role: 'Intern',
+    image: 'public/images/G.O LOGO.jpeg',
+    bio: '',
+  },
+  {
+    name: 'Peter Patrick',
+    role: 'Intern',
+    image: 'public/images/G.O LOGO.jpeg',
+    bio: '',
+  },
+  {
+    name: 'Jonah Odeh',
+    role: 'Intern',
+    image: 'public/images/G.O LOGO.jpeg',
+    bio: '',
+  },
+  {
+    name: 'Praise Samson',
+    role: 'Intern',
+    image: 'public/images/G.O LOGO.jpeg',
+    bio: '',
   }
 ];
 
@@ -98,7 +122,7 @@ function renderTeamSection() {
           <p class="text-[#8b7500] text-xs md:text-sm tracking-wider uppercase mb-3 md:mb-4">${member.role}</p>
           <p class="text-[#aaaaaa] text-xs md:text-sm leading-relaxed mb-3 md:mb-4">${member.bio}</p>
           <div class="flex flex-wrap gap-1.5 md:gap-2">
-            ${member.skills.map(s => '<span class="bg-[#2a1f08] text-[#8b7500] text-[10px] md:text-xs px-2 md:px-3 py-0.5 md:py-1 rounded-full border border-[#3a2e12]">' + s + '</span>').join('')}
+            ${(member.skills || []).map(s => '<span class="bg-[#2a1f08] text-[#8b7500] text-[10px] md:text-xs px-2 md:px-3 py-0.5 md:py-1 rounded-full border border-[#3a2e12]">' + s + '</span>').join('')}
           </div>
           <p class="text-[#aaaaaa]/60 text-xs mt-3 md:mt-4">Click to flip back ←</p>
         </div>
