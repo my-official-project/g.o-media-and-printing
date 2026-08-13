@@ -227,11 +227,11 @@ function initScrollReveal() {
               el.classList.add('translate-y-0');
               break;
             case 'left':
-              el.classList.remove('translate-x-10');
+              el.classList.remove('translate-x-4');
               el.classList.add('translate-x-0');
               break;
             case 'right':
-              el.classList.remove('-translate-x-10');
+              el.classList.remove('-translate-x-4');
               el.classList.add('translate-x-0');
               break;
             case 'scale':
@@ -259,10 +259,10 @@ function initScrollReveal() {
         el.classList.add('-translate-y-10');
         break;
       case 'left':
-        el.classList.add('translate-x-10');
+        el.classList.add('translate-x-4');
         break;
       case 'right':
-        el.classList.add('-translate-x-10');
+        el.classList.add('-translate-x-4');
         break;
       case 'scale':
         el.classList.add('scale-90');
